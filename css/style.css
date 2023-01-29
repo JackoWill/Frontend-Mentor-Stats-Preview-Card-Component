@@ -11,6 +11,9 @@
   --clr-white: hsl(0, 0%, 100%);
   --clr-main-paragraph: hsla(0, 0%, 100%, 0.75);
   --clr-stat-heading: hsla(0, 0%, 100%, 0.6);
+
+  --fw-regular: 400;
+  --fw-bold: 700;
 }
 
 /* .attribution {
