@@ -14,7 +14,7 @@
   --clr-stat-heading: hsla(0, 0%, 100%, 0.6);
 
   /* font-family */
-  --ff-primary: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
   --ff-secondary: "Lexend Deca", sans-serif;
 
   /* font weight */
@@ -27,90 +27,86 @@
 body {
   background-color: var(--clr-main-background);
   color: var(--clr-white);
-  font-family: var(--ff-primary);
 
   display: grid;
-  grid: 1fr / 1fr;
-  gap: 3rem;
   place-content: center;
-  margin: 2.4rem;
+  gap: 1rem;
+  padding: 2.4rem;
 }
-
-/* HERO */
-
-.hero {
+/**** --- STATS CARD --- ****/
+article.stats-card {
   overflow: hidden;
   border-radius: 0.8rem;
   box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.203087);
+  background-color: var(--clr-card-background);
+  max-width: 111rem;
+  height: auto;
 }
 
-.hero__img-container {
+/**** --- IMG & IMG CONTAINER --- ****/
+
+.stats-card__img-container {
   background-color: var(--clr-accent);
 }
 
-.hero__img {
+.stats-card__img {
   mix-blend-mode: multiply;
   opacity: 0.75;
   width: 100%;
 }
-
-.hero__content {
-  background-color: var(--clr-card-background);
-  padding: 3.2rem;
+/**** --- STATS CARD INFO --- ****/
+.stats-card__info {
+  gap: 1.6rem;
+  padding: 4rem 3.15rem 3.2rem;
+  max-width: 65rem;
+  text-align: center;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.6rem;
 }
 
-.hero_title {
+.info-title {
   font-weight: var(--fw-bold);
   font-size: 2.8rem;
   line-height: 3.2rem;
-  text-align: center;
-  margin-top: 0.8rem;
 }
 
-.hero_title span {
+.info-title span {
   color: var(--clr-accent);
 }
 
-.hero__description {
+.info-description {
   font-weight: var(--fw-regular);
   font-size: 1.5rem;
   line-height: 2.5rem;
-  text-align: center;
   mix-blend-mode: normal;
   opacity: 0.6;
-  margin-bottom: 2.4rem;
 }
 
-.flex__container {
+/* --- INFO STATS --- */
+
+.info__stats {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 2.4rem;
+  padding: 2.4rem 3.2rem 0;
 }
 
-.flex__group {
+.stats {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  gap: 2px;
 }
 
-.hero__stats {
+.stats-value {
   font-weight: var(--fw-bold);
   font-size: 2.4rem;
   line-height: 2.9rem;
 }
 
-.hero__stats-rel {
-  /* display: block; */
+.stats-description {
   font-family: var(--ff-secondary);
   font-size: 1.2rem;
   line-height: 2.5rem;
-  text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
   mix-blend-mode: normal;
