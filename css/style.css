@@ -85,7 +85,6 @@ body {
   line-height: 2.5rem;
   mix-blend-mode: normal;
   opacity: 0.6;
-  color: var(--clr-main-paragraph);
 }
 
 /**** --- INFO STATS --- ****/
@@ -111,19 +110,10 @@ body {
 
 .stats-description {
   font-family: var(--ff-secondary);
-  color: var(--clr-stat-heading);
   font-size: 1.2rem;
   line-height: 2.5rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   mix-blend-mode: normal;
   opacity: 0.6;
-}
-/**** ---- FOOTER ---- ****/
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
