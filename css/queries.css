@@ -1,0 +1,28 @@
+@media (width >= 75em) {
+  .stats-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .stats-card__info {
+    grid-row: 1;
+    gap: 2.5rem;
+    padding: 7.1rem 12rem 5.9rem 7.2rem;
+    text-align: left;
+  }
+  .stats-card__img-desktop {
+    display: block;
+  }
+  .stats-card__img-mobile {
+    display: none;
+  }
+  .info__stats {
+    flex-direction: row;
+    gap: 6.3rem;
+    padding-left: 0;
+  }
+
+  .info-title {
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+  }
+}
