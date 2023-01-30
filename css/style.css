@@ -93,7 +93,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-  padding: 4.7rem 3.2rem 0;
+  padding: 2.5rem 3.2rem 0;
 }
 
 .stats {
