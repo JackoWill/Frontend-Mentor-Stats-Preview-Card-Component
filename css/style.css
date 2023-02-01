@@ -62,7 +62,7 @@ body {
 /**** --- STATS CARD INFO --- ****/
 .stats-card__info {
   gap: 1.6rem;
-  padding: 4em 3.15em 3.2em;
+  padding: 4rem 3.15rem 3.2rem;
   max-width: 65em;
   text-align: center;
   display: grid;
@@ -93,7 +93,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-  padding: 2.5em 3.2em 0;
+  padding: 2.5rem 3.2rem 0;
 }
 
 .stats {
