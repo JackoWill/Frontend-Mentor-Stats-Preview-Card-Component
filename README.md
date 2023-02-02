@@ -8,15 +8,14 @@ alt="frontendmentor" width="80">
 </div>
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+<br>
 
 ## Table of contents
 
 - [Overview](#overview)
 
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
-
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 
