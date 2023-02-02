@@ -1,4 +1,10 @@
-# Frontend Mentor - Stats preview card component solution
+<div align="center">
+<img src="/assets/images/favicon-32x32.png" alt="frontendmentor" width="80">
+
+# Stats preview card component solution
+
+<img src="/assets/design/desktop-design.jpg">
+</div>
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -15,20 +21,11 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 - [Author](#author)
 
-## Overview
-
-Responsive Stats Preview Card Component
-
 ### The challenge
 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-
-### Screenshot
-
-![](./assets/images/stats-preview-mobile.png)
-![](./assets/images/stats-preview-desktop.png)
 
 ### Links
 
