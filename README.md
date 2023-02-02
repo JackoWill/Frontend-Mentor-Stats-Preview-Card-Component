@@ -1,5 +1,6 @@
 <div align="center">
-<img src="/assets/images/favicon-32x32.png" alt="frontendmentor" width="80">
+<img src="https://www.frontendmentor.io/static/images/logo-mobile.svg"  
+alt="frontendmentor" width="80">
 
 # Stats preview card component solution
 
